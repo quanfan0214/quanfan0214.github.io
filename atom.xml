@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quanfanquanfan.github.io</id>
     <title>Gridea</title>
-    <updated>2020-02-21T08:00:52.112Z</updated>
+    <updated>2020-02-21T08:06:50.155Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://quanfanquanfan.github.io"/>
     <link rel="self" href="https://quanfanquanfan.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[#markdown使用示例]]></title>
-        <id>https://quanfanquanfan.github.io/post/markdown-shi-yong-shi-li/</id>
-        <link href="https://quanfanquanfan.github.io/post/markdown-shi-yong-shi-li/">
+        <id>https://quanfanquanfan.github.io/post/markdown-shi-yong-shi-li</id>
+        <link href="https://quanfanquanfan.github.io/post/markdown-shi-yong-shi-li">
         </link>
         <updated>2020-02-20T11:34:47.000Z</updated>
         <content type="html"><![CDATA[<h1 id="typora">Typora</h1>
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://quanfanquanfan.github.io/post/hello-gridea/</id>
-        <link href="https://quanfanquanfan.github.io/post/hello-gridea/">
+        <id>https://quanfanquanfan.github.io/post/hello-gridea</id>
+        <link href="https://quanfanquanfan.github.io/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
