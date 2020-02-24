@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quanfan0214.github.io</id>
     <title>Gridea</title>
-    <updated>2020-02-23T03:26:51.978Z</updated>
+    <updated>2020-02-24T02:51:05.849Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://quanfan0214.github.io"/>
     <link rel="self" href="https://quanfan0214.github.io/atom.xml"/>
@@ -10,6 +10,72 @@
     <logo>https://quanfan0214.github.io/images/avatar.png</logo>
     <icon>https://quanfan0214.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Javascript笔记2]]></title>
+        <id>https://quanfan0214.github.io/post/javascript-bi-ji-2</id>
+        <link href="https://quanfan0214.github.io/post/javascript-bi-ji-2">
+        </link>
+        <updated>2020-02-24T02:50:26.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="object">object</h3>
+<ul>
+<li>
+<p><em>Object.entries</em>返回的是键值组成的数组</p>
+</li>
+<li>
+<p>遍历对象（let of）用<em>object.keys或Object.entries</em> 的方法</p>
+</li>
+<li>
+<p>可以用**[]**将对象作为参数传入</p>
+<hr>
+<p>克隆</p>
+<ul>
+<li>Object.assgin可以将多个复制到一个</li>
+<li>而{...}拆分则是复制一个</li>
+</ul>
+</li>
+</ul>
+<h3 id="规范引用反引号">规范引用：``反引号</h3>
+<p>且使用美元加上{}</p>
+<hr>
+<h2 id="值类型和引用类型要区分">值类型和引用类型要区分</h2>
+<h3 id="查找值类型">查找值类型</h3>
+<ul>
+<li>indexof、includedeng</li>
+</ul>
+<h3 id="查找引用类型">查找引用类型</h3>
+<ul>
+<li>箭头函数可以用来表示</li>
+</ul>
+<hr>
+<ul>
+<li>number[]=0</li>
+<li>number/length=0,强制清空所有元素</li>
+<li>number.splice（0，numbers.length),强制清空</li>
+</ul>
+<hr>
+<h2 id="遍历数组">遍历数组</h2>
+<p>number.foreach((number,index))=&gt;{})</p>
+<h2 id="数组排序">数组排序</h2>
+<p>sort等等</p>
+<hr>
+<h3 id="函数声明">函数声明</h3>
+<p>javascript可以在运行代码之前把所有函数提前</p>
+<hr>
+<h3 id="余下拆分操作符">余下/拆分操作符</h3>
+<p>写法相同</p>
+<ul>
+<li>
+<p>余下操作符是把输入函数的所有参数转到一个数组中</p>
+</li>
+<li>
+<p>余下操作符后面不能再有任何参数</p>
+</li>
+</ul>
+<hr>
+<h2 id="let-const和var">let、const和var</h2>
+<p>var的函数是作用域的</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Javascript笔记]]></title>
         <id>https://quanfan0214.github.io/post/javascript-biji</id>

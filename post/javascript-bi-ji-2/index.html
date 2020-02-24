@@ -2,11 +2,11 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | Gridea</title>
+<title>Javascript笔记2 | Gridea</title>
 <link rel="shortcut icon" href="https://quanfan0214.github.io/favicon.ico?v=1582512647108">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://quanfan0214.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | Gridea - Atom Feed" href="https://quanfan0214.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="Javascript笔记2 | Gridea - Atom Feed" href="https://quanfan0214.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
@@ -74,11 +74,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              Javascript笔记2
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2020-02-24
               </span>
               <span>
                 1 min read
@@ -88,23 +88,90 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+                <h3 id="object">object</h3>
+<ul>
+<li>
+<p><em>Object.entries</em>返回的是键值组成的数组</p>
+</li>
+<li>
+<p>遍历对象（let of）用<em>object.keys或Object.entries</em> 的方法</p>
+</li>
+<li>
+<p>可以用**[]**将对象作为参数传入</p>
+<hr>
+<p>克隆</p>
+<ul>
+<li>Object.assgin可以将多个复制到一个</li>
+<li>而{...}拆分则是复制一个</li>
+</ul>
+</li>
+</ul>
+<h3 id="规范引用反引号">规范引用：``反引号</h3>
+<p>且使用美元加上{}</p>
+<hr>
+<h2 id="值类型和引用类型要区分">值类型和引用类型要区分</h2>
+<h3 id="查找值类型">查找值类型</h3>
+<ul>
+<li>indexof、includedeng</li>
+</ul>
+<h3 id="查找引用类型">查找引用类型</h3>
+<ul>
+<li>箭头函数可以用来表示</li>
+</ul>
+<hr>
+<ul>
+<li>number[]=0</li>
+<li>number/length=0,强制清空所有元素</li>
+<li>number.splice（0，numbers.length),强制清空</li>
+</ul>
+<hr>
+<h2 id="遍历数组">遍历数组</h2>
+<p>number.foreach((number,index))=&gt;{})</p>
+<h2 id="数组排序">数组排序</h2>
+<p>sort等等</p>
+<hr>
+<h3 id="函数声明">函数声明</h3>
+<p>javascript可以在运行代码之前把所有函数提前</p>
+<hr>
+<h3 id="余下拆分操作符">余下/拆分操作符</h3>
+<p>写法相同</p>
+<ul>
+<li>
+<p>余下操作符是把输入函数的所有参数转到一个数组中</p>
+</li>
+<li>
+<p>余下操作符后面不能再有任何参数</p>
+</li>
+</ul>
+<hr>
+<h2 id="let-const和var">let、const和var</h2>
+<p>var的函数是作用域的</p>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+<li>
+<ul>
+<li><a href="#object">object</a></li>
+<li><a href="#%E8%A7%84%E8%8C%83%E5%BC%95%E7%94%A8%E5%8F%8D%E5%BC%95%E5%8F%B7">规范引用：``反引号</a></li>
+</ul>
+</li>
+<li><a href="#%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E8%A6%81%E5%8C%BA%E5%88%86">值类型和引用类型要区分</a>
+<ul>
+<li><a href="#%E6%9F%A5%E6%89%BE%E5%80%BC%E7%B1%BB%E5%9E%8B">查找值类型</a></li>
+<li><a href="#%E6%9F%A5%E6%89%BE%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B">查找引用类型</a></li>
+</ul>
+</li>
+<li><a href="#%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84">遍历数组</a></li>
+<li><a href="#%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F">数组排序</a>
+<ul>
+<li><a href="#%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E">函数声明</a></li>
+<li><a href="#%E4%BD%99%E4%B8%8B%E6%8B%86%E5%88%86%E6%93%8D%E4%BD%9C%E7%AC%A6">余下/拆分操作符</a></li>
+</ul>
+</li>
+<li><a href="#let-const%E5%92%8Cvar">let、const和var</a></li>
 </ul>
 </li>
 </ul>
@@ -114,6 +181,15 @@
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://quanfan0214.github.io/post/javascript-biji">
+              <h3 class="post-title">
+                Javascript笔记
+              </h3>
+            </a>
+          </div>
         
 
         
